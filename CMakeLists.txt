@@ -27,7 +27,7 @@ set(PICO_BOARD pico2_w CACHE STRING "Board type")
 # Initialise the Raspberry Pi Pico SDK
 pico_sdk_init()
 
-add_subdirectory(./src_old build)
+add_subdirectory(./src build)
 
 # Add executable. Default name is the project name, version 0.1
 add_executable(picow_sdcard_play
