@@ -31,10 +31,7 @@ add_subdirectory(./src build)
 
 # Add executable. Default name is the project name, version 0.1
 add_executable(picow_sdcard_play
-    #main.c
-    main_overclock_1.c
-    #copy.c
-    #gpt.c
+    main.c
     hw_config.c
 )
 
