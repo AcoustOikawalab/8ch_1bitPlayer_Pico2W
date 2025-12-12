@@ -1,7 +1,7 @@
 # 8ch_1bitPlayer_Pico2W
 
 Raspberry Pi Pico 2 W (RP2350) で  
-microSD 上の 8ch 1bit オーディオ（WSD 相当）を 3 MHz で再生するためのプレイヤー。
+microSD 上の 8ch 1bit オーディオを再生するためのプレイヤー。
 
 - SD カードから 1bit ストリームを読み出し
 - PIO + DMA + マルチコアで 8ch 分の 1bit 信号を連続出力
@@ -33,7 +33,7 @@ microSD 上の 8ch 1bit オーディオ（WSD 相当）を 3 MHz で再生する
 - Raspberry Pi Pico 2 W
 - microSD カードスロット（SPI 接続のブレイクアウト基板など）
 - 8ch 1bit 出力を受けるドライバ回路
-  - CMOS ドライバ、整合抵抗、RC フィルタ、アンプ など
+  - CMOS ドライバ、整合抵抗 など
 
 ### SD カード用ピン配置（SPI0）
 
